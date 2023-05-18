@@ -4,7 +4,7 @@ const nextConfig = {
           appDir: true,
           serverComponentsExternalPackages: ["mongoose"],
         },
-        images: {
+        image: {
           domains: ['lh3.googleusercontent.com'],
         },
         webpack(config) {
